@@ -1,0 +1,797 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--==== favicon css ====-->
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"
+      rel="stylesheet"
+    />
+
+    <!-- josefin font -->
+    <link
+      href="../css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Ecommerce</title>
+
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+
+    <!-- flaticon -->
+    <link rel="stylesheet" href="assets/font/flaticon.css" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- menu -->
+    <link rel="stylesheet" href="assets/css/menu.css" />
+
+    <!-- swiper slider -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- venobox -->
+    <link rel="stylesheet" href="assets/css/venobox.css" />
+
+    <!-- select -->
+    <link rel="stylesheet" href="assets/css/select2.min.css" />
+
+    <!-- jquery ui -->
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css" />
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- start preloader area -->
+    <div class="preloader">
+      <div class="preloader-orbit-loading">
+        <div class="cssload-inner cssload-one"></div>
+        <div class="cssload-inner cssload-two"></div>
+        <div class="cssload-inner cssload-three"></div>
+      </div>
+    </div>
+    <!-- end preloader area -->
+
+    <!-- start scroll top button -->
+    <div class="scroll-top">
+      <button class="top-to-btn">
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+    <!-- end scroll top button -->
+
+    <!-- start fancybox area -->
+    <div class="home1 fancybox">
+      <div class="fancybox-bg"></div>
+      <div class="fancybox-content">
+        <div class="row">
+          <div class="col-md-6 img-area">
+            <div class="popup-img">
+              <img src="assets/images/fancybox/img1.jpg" alt="Popup" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div
+              class="popup-content text-center"
+              data-img="assets/images/fancybox/shape.png"
+            >
+              <h2>Get 20% Discount Shipped To Your Inbox</h2>
+              <h5>sign up newsletter</h5>
+              <p>
+                Enjoy our newsletter to stay updated with the latest news and
+                special sales. Let's your email address here!
+              </p>
+              <form action="#!">
+                <div class="d-flex justify-content-center">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="inputs"
+                  />
+                  <button type="submit" class="fancy-btn">subscribe</button>
+                </div>
+                <label for="term">
+                  <input type="checkbox" class="check" id="term" />
+                  <span class="check-custom"></span>
+                  don't show again
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="close-fancy">
+          <button>
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- end fancybox area -->
+
+    <!-- start header area -->
+    <header>
+      <!-- start menubar area -->
+      <section class="home1 menubar">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="menu-bg">
+                <div class="row align-items-center">
+                  <!-- logo -->
+                  <div class="col-lg-2 col-md-4 col-sm-5 col-6">
+                    <div class="logo">
+                      <a
+                        href="index.html"
+                        style="
+                          color: #11161e !important;
+                          font-weight: bold;
+                          font-size: 23px;
+                          font-style: italic;
+                          text-transform: uppercase;
+                        "
+                        >easters</a
+                      >
+                    </div>
+                  </div>
+                  <!-- main menu -->
+                  <div class="col-lg-8 col-md-4 col-sm-2 col-6">
+                    <!-- desktop-menu -->
+                    <nav
+                      class="navbar position-static justify-content-center desktop-menu p-0"
+                    >
+                      <div class="main-menu">
+                        <ul class="menu">
+                          <li>
+                            <!-- <a href="#!">home</a> -->
+                            <a href="index.html">home</a>
+
+                            <!-- <ul class="submenu-list">
+                              <li>
+                                <a href="index.html">home 1</a>
+                                <span class="menu-img">
+                                  <img
+                                    src="assets/images/home1/home.jpg"
+                                    alt="Home 1"
+                                  />
+                                </span>
+                              </li>
+                              <li>
+                                <a href="index2.html">home 2</a>
+                                <span class="menu-img">
+                                  <img
+                                    src="assets/images/home2/home.jpg"
+                                    alt="Home 1"
+                                  />
+                                </span>
+                              </li>
+                              <li>
+                                <a href="index3.html">home 3</a>
+                                <span class="menu-img">
+                                  <img
+                                    src="assets/images/home3/home.jpg"
+                                    alt="Home 1"
+                                  />
+                                </span>
+                              </li>
+                            </ul> -->
+                          </li>
+                          <li><a href="about.html">about us</a></li>
+
+                          <li>
+                            <a href="#!">Shop</a>
+                            <ul class="submenu-list">
+                              <li>
+                                <a href="shop-4-column.html">shop 1</a>
+                              </li>
+                              <li>
+                                <a href="shop-4-column.html">shop 2</a>
+                              </li>
+                              <li>
+                                <a href="shop-4-column.html">shop 3</a>
+                              </li>
+                              <li>
+                                <a href="shop-4-column.html">shop 4</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li><a href="contact.html">contact us</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                    <!-- mobile menu -->
+                    <nav class="navbar p-0 mobile-menu position-static">
+                      <div class="header-menu position-static">
+                        <ul class="menu">
+                          <li class="active">
+                            <a href="index.html">home</a>
+                          </li>
+                          <li><a href="about.html">about</a></li>
+
+                          <li>
+                            <a href="#!">shop</a>
+                            <ul>
+                              <li>
+                                <a href="shop-4-column.html">shop 1</a>
+                              </li>
+                              <li>
+                                <a href="shop-4-column.html">shop 2</a>
+                              </li>
+                              <li>
+                                <a href="shop-4-column.html">shop 3</a>
+                              </li>
+                              <li>
+                                <a href="shop-4-column.html">shop 4</a>
+                              </li>
+                            </ul>
+                          </li>
+
+                          <li><a href="contact.html">contact us</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                  <!-- notification -->
+                  <div class="col-lg-2 col-md-4 col-sm-5 right-col">
+                    <div class="notification">
+                      <ul class="d-flex justify-content-end">
+                        <li>
+                          <a href="login.html">
+                            <i class="flaticon-user-1"></i>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="wishlist.html">
+                            <i class="flaticon-heart"></i>
+                            <span class="quantity">01</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="cart.html">
+                            <i class="flaticon-shopping-cart-1"></i>
+                            <span class="quantity">04</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end menubar area -->
+    </header>
+    <!-- end header area -->
+
+    <!-- start banner area -->
+    <section
+      class="inner-page banner"
+      data-img="assets/images/inner/banner-bg.jpg"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>shopping cart</h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">cart</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end banner area -->
+
+    <!-- start cart area -->
+    <section class="cart-page cart-detail p-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-xxl-10 offset-xxl-1">
+            <form action="#!">
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">image</th>
+                      <th scope="col">product name</th>
+                      <th scope="col">price</th>
+                      <th scope="col">quantity</th>
+                      <th scope="col">total</th>
+                      <th scope="col">delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="pro-img">
+                        <a href="shop-detail-left.html">
+                          <img
+                            src="assets/images/product/cart1.jpg"
+                            alt="Cart"
+                          />
+                        </a>
+                      </td>
+                      <td class="pro-name">
+                        <a href="shop-detail-left.html"
+                          >Flower Check Flannel Jacket</a
+                        >
+                      </td>
+                      <td class="pro-price"><p>$210</p></td>
+                      <td class="pro-quantity">
+                        <div class="d-flex number-spinner">
+                          <button data-dir="dwn" class="down-btn">
+                            <i class="fas fa-minus"></i>
+                          </button>
+                          <input
+                            type="text"
+                            class="form-control text-center input-value"
+                            value="1"
+                          />
+                          <button data-dir="up" class="up-btn">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                      </td>
+                      <td class="pro-total"><p>$210</p></td>
+                      <td class="pro-delete">
+                        <a href="#!">
+                          <i class="flaticon-delete"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pro-img">
+                        <a href="shop-detail-left.html">
+                          <img
+                            src="assets/images/product/cart2.jpg"
+                            alt="Cart"
+                          />
+                        </a>
+                      </td>
+                      <td class="pro-name">
+                        <a href="shop-detail-left.html">Checked Hoodies Woo</a>
+                      </td>
+                      <td class="pro-price"><p>$199</p></td>
+                      <td class="pro-quantity">
+                        <div class="d-flex number-spinner">
+                          <button data-dir="dwn" class="down-btn">
+                            <i class="fas fa-minus"></i>
+                          </button>
+                          <input
+                            type="text"
+                            class="form-control text-center input-value"
+                            value="1"
+                          />
+                          <button data-dir="up" class="up-btn">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                      </td>
+                      <td class="pro-total"><p>$398</p></td>
+                      <td class="pro-delete">
+                        <a href="#!">
+                          <i class="flaticon-delete"></i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pro-img">
+                        <a href="shop-detail-left.html">
+                          <img
+                            src="assets/images/product/cart3.jpg"
+                            alt="Cart"
+                          />
+                        </a>
+                      </td>
+                      <td class="pro-name">
+                        <a href="shop-detail-left.html"
+                          >fashionable mini skirt</a
+                        >
+                      </td>
+                      <td class="pro-price"><p>$299</p></td>
+                      <td class="pro-quantity">
+                        <div class="d-flex number-spinner">
+                          <button data-dir="dwn" class="down-btn">
+                            <i class="fas fa-minus"></i>
+                          </button>
+                          <input
+                            type="text"
+                            class="form-control text-center input-value"
+                            value="1"
+                          />
+                          <button data-dir="up" class="up-btn">
+                            <i class="fas fa-plus"></i>
+                          </button>
+                        </div>
+                      </td>
+                      <td class="pro-total"><p>$299</p></td>
+                      <td class="pro-delete">
+                        <a href="#!">
+                          <i class="flaticon-delete"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="coupon-area d-flex justify-content-between">
+                <div class="coupon-input">
+                  <input type="text" placeholder="coupon code" class="inputs" />
+                  <button>apply coupon <span class="btn-dot"></span></button>
+                </div>
+                <button type="submit">
+                  update cart <span class="btn-dot"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end cart area -->
+
+    <!-- start cart-total area -->
+    <section class="cart-page cart-total pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div class="total-content">
+              <div class="title text-center">
+                <h6>cart total</h6>
+              </div>
+              <div class="sub d-flex justify-content-between">
+                <p>Subtotal:</p>
+                <p>£220</p>
+              </div>
+              <div class="ship">
+                <p>Shipping:</p>
+                <label class="input-container">
+                  <span class="d-flex justify-content-between">
+                    <span>free shipping</span>
+                    <span>£0.00</span>
+                  </span>
+                  <input type="radio" checked="checked" name="radio" />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="input-container">
+                  <span class="d-flex justify-content-between">
+                    <span>standard</span>
+                    <span>£20.00</span>
+                  </span>
+                  <input type="radio" name="radio" />
+                  <span class="checkmark"></span>
+                </label>
+                <label class="input-container">
+                  <span class="d-flex justify-content-between">
+                    <span>express</span>
+                    <span>£10.00</span>
+                  </span>
+                  <input type="radio" name="radio" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="estimate">
+                <h6>Estimate for Your Country</h6>
+                <a href="#!"
+                  ><p><u>Change address</u></p></a
+                >
+              </div>
+              <div class="checkout">
+                <div class="d-flex justify-content-between">
+                  <h6>total</h6>
+                  <p>£220.00</p>
+                </div>
+                <a href="checkout.html"
+                  >checkout <span class="btn-dot"></span
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end cart-total area -->
+
+    <!-- start overview area -->
+    <section class="home1 overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="bg">
+              <div class="bg-inner">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                    <div
+                      class="item d-flex align-items-center justify-content-center"
+                    >
+                      <div class="icon">
+                        <i class="flaticon-fire-truck"></i>
+                      </div>
+                      <div class="text">
+                        <h5>free shipping</h5>
+                        <h6>Orders over $250</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div
+                      class="item d-flex align-items-center justify-content-center"
+                    >
+                      <div class="icon">
+                        <i class="flaticon-cards"></i>
+                      </div>
+                      <div class="text">
+                        <h5>quick payment</h5>
+                        <h6>100% secure payment</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div
+                      class="item d-flex align-items-center justify-content-center"
+                    >
+                      <div class="icon">
+                        <i class="flaticon-gift-box"></i>
+                      </div>
+                      <div class="text">
+                        <h5>gift certificate</h5>
+                        <h6>Buy now $500</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                    <div
+                      class="item d-flex align-items-center justify-content-center last-item"
+                    >
+                      <div class="icon">
+                        <i class="flaticon-customer-service"></i>
+                      </div>
+                      <div class="text">
+                        <h5>24/7 support</h5>
+                        <h6>Quick Support</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end overview area -->
+
+    <!-- start footer area -->
+    <footer class="footer">
+      <!-- start footer-top area -->
+      <section class="footer-top pb-50">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="content">
+                <div class="title">
+                  <h5>about us</h5>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisici ti elit
+                  seddo eiusmod tempor incididunt utlabore et dolore magna
+                  aliqua enim ad minim veniam quisnostrud exercitation ullamco
+                </p>
+                <div class="follow">
+                  <h6>follow us</h6>
+                  <ul class="d-flex social">
+                    <li>
+                      <a href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#!"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#!"><i class="fab fa-skype"></i></a>
+                    </li>
+                    <li>
+                      <a href="#!"><i class="fab fa-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="content">
+                <div class="title">
+                  <h5>my account</h5>
+                </div>
+                <ul>
+                  <li><a href="wishlist.html">wishlist</a></li>
+                  <li><a href="login.html">login</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="content">
+                <div class="title">
+                  <h5>support</h5>
+                </div>
+                <ul>
+                  <li><a href="contact.html">contact us</a></li>
+                  <li><a href="#!">store locations</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="content">
+                <div class="title">
+                  <h5>contact us</h5>
+                </div>
+                <ul class="address">
+                  <li class="d-flex align-items-center">
+                    <div class="icon">
+                      <i class="flaticon-phone"></i>
+                    </div>
+                    <div class="text">
+                      <h6>phone</h6>
+                      <p>(800) 123 456 789</p>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <div class="icon">
+                      <i class="flaticon-mail"></i>
+                    </div>
+                    <div class="text">
+                      <h6>email</h6>
+                      <p>example@mail.com</p>
+                    </div>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <div class="icon">
+                      <i class="flaticon-placeholder"></i>
+                    </div>
+                    <div class="text">
+                      <h6>address</h6>
+                      <p>123, Western Road, Melbourne</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+              <div class="content">
+                <div class="title">
+                  <h5>useful links</h5>
+                </div>
+                <ul>
+                  <li><a href="#!">privacy policy</a></li>
+                  <li><a href="tracking.html">orders traking</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end footer-top area -->
+
+      <!-- start footer-bottom area -->
+      <section class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="border-area">
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-md-6">
+                    <p>Copyright 2025, All Rights Reserved.</p>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                    <div class="payment">
+                      <ul class="d-flex justify-content-end">
+                        <li>
+                          <a href="#!"
+                            ><img
+                              src="assets/images/payment/visa.png"
+                              alt="Visa"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#!"
+                            ><img
+                              src="assets/images/payment/master.png"
+                              alt="Master"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#!"
+                            ><img
+                              src="assets/images/payment/paypal.png"
+                              alt="Paypal"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#!"
+                            ><img
+                              src="assets/images/payment/skrill.png"
+                              alt="Skrill"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#!"
+                            ><img
+                              src="assets/images/payment/maestro.png"
+                              alt="Maestro"
+                          /></a>
+                        </li>
+                        <li>
+                          <a href="#!"
+                            ><img
+                              src="assets/images/payment/electron.png"
+                              alt="Electron"
+                          /></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end footer-bottom area -->
+    </footer>
+    <!-- end footer area -->
+
+    <!-- jquery -->
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- menu -->
+    <script src="assets/plugins/menu.min.js"></script>
+
+    <!-- swiper slider -->
+    <script src="assets/plugins/swiper-bundle.min.js"></script>
+
+    <!-- packery -->
+    <script src="assets/plugins/packery.pkgd.min.js"></script>
+
+    <!-- countdown -->
+    <script src="assets/plugins/jquery.countdown.min.js"></script>
+
+    <!-- venobox -->
+    <script src="assets/plugins/venobox.min.js"></script>
+
+    <!-- jquery ui -->
+    <script src="assets/plugins/jquery-ui.min.js"></script>
+
+    <!-- select -->
+    <script src="assets/plugins/select2.min.js"></script>
+
+    <!-- jquery ui -->
+    <script src="assets/plugins/jquery-ui.min.js"></script>
+
+    <!-- select -->
+    <script src="assets/plugins/select2.min.js"></script>
+
+    <!-- zoom -->
+    <script src="assets/plugins/jquery.elevateZoom-3.0.8.min.js"></script>
+
+    <!-- Google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjkssBA3hMeFtClgslO2clWFR6bRraGz0"></script>
+
+    <!-- script -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
