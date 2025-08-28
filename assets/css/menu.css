@@ -164,9 +164,7 @@ span.submenu-button:before {
 
 
 
-.fancybox .window-show{
-    display:none;
-}
+
 
 /* responsive menu */
 @media (max-width: 1441.98px) {
